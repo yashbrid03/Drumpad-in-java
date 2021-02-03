@@ -43,15 +43,15 @@ public class Drumpad extends JFrame {
 	Color h = new Color(213, 137, 111); 
 	Color i = new Color(216, 30, 91); 
 	
-	public static final String s1="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\bubbles.mp3";
-	public static final String s2="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\clay.mp3";
-	public static final String s3="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\confetti.mp3";
-	public static final String s4="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\glimmer.mp3";
-	public static final String s5="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\moon.mp3";
-	public static final String s6="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\ufo.mp3";
-	public static final String s7="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\7.mp3";
-	public static final String s8="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\8.mp3";
-	public static final String s9="D:\\yash\\vanilla-js-beatmaker-master\\sounds\\9.mp3";
+	public static final String s1="D:\\sounds\\bubbles.mp3";
+	public static final String s2="D:\\sounds\\clay.mp3";
+	public static final String s3="D:\\sounds\\confetti.mp3";
+	public static final String s4="D:\\sounds\\glimmer.mp3";
+	public static final String s5="D:\\sounds\\moon.mp3";
+	public static final String s6="D:\\sounds\\ufo.mp3";
+	public static final String s7="D:\\sounds\\7.mp3";
+	public static final String s8="D:\\sounds\\8.mp3";
+	public static final String s9="D:\\sounds\\9.mp3";
 	MP3Player mp3player1= new MP3Player(new File(s1));
 	MP3Player mp3player2= new MP3Player(new File(s2));
 	MP3Player mp3player3= new MP3Player(new File(s3));
@@ -240,7 +240,7 @@ public class Drumpad extends JFrame {
 		btn6.setBounds(215, 246, 100, 100);
 		contentPane.add(btn6);
 		
-		JButton btn7 = new JButton("New button");
+		JButton btn7 = new JButton("Kick 1");
 		btn7.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		btn7.setBackground(Color.pink);
 		btn7.addActionListener(new ActionListener() {
@@ -266,7 +266,7 @@ public class Drumpad extends JFrame {
 		btn7.setBounds(11, 348, 100, 100);
 		contentPane.add(btn7);
 		
-		JButton btn8 = new JButton("Kick");
+		JButton btn8 = new JButton("Kick 2");
 		btn8.setBackground(h);
 		btn8.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -292,7 +292,7 @@ public class Drumpad extends JFrame {
 		btn8.setBounds(113, 348, 100, 100);
 		contentPane.add(btn8);
 		
-		JButton btn9 = new JButton("New button");
+		JButton btn9 = new JButton("Kick 3");
 		btn9.setBackground(i);
 		btn9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
