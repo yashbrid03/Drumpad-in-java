@@ -16,5 +16,17 @@
 </ul>
 <h2>Installation :</h2>
 <ul>
-  <li></li>
+  <li>Download This Project</li>
+  <li>Open this project folder in Eclipse IDE</li>
+  <li>right click on the folder >>Build Path >>Configure Build Path</li>
+  
+  ![image](https://user-images.githubusercontent.com/65955929/111149804-595f7380-85b3-11eb-8ff6-2b8ae498bf94.png)
+  
+  <li>Now, In libraries tab, click on "Add External JARs.."</li>
+  <li>Add the given Jaco Mp3 JAR file provided with the project</li>
+  <li>Then Apply and close</li>
+  <li>Now Run your project</li>
+  <b>*NOTE : Make sure you have installed window builder in Eclipse. <a href="https://www.youtube.com/watch?v=ndhFmgzi6io">Tutorial</a>*</b>
 </ul>
+<h2>Output : </h2>
+![Output](https://user-images.githubusercontent.com/65955929/111151629-ba884680-85b5-11eb-9479-e5a6bd9174fb.PNG)
